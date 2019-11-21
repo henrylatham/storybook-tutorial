@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { PureTaskList } from './TaskList';
 import { withPinnedTasks } from './TaskList.stories';
 
+// Jest test to verify that the output of the component remains the same given a fixed input
 it('renders pinned tasks at the start of the list', () => {
   const div = document.createElement('div');
   const events = { onPinTask: jest.fn(), onArchiveTask: jest.fn() };

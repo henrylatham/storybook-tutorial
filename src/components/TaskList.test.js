@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import TaskList from './TaskList';
 import { withPinnedTasks } from './TaskList.stories';
 
+// Because this is more complex, we want to run a test showing
+// the reordering of tasks (based on onPinTask event) works
+
 it('renders pinned tasks at the start of the list', () => {
   const div = document.createElement('div');
   const events = { onPinTask: jest.fn(), onArchiveTask: jest.fn() };

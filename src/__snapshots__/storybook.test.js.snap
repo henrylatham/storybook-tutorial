@@ -1,5 +1,47 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Button default 1`] = `
+<div
+  className="button BUTTON_PRIMARY"
+>
+  <button
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</div>
+`;
+
+exports[`Storyshots Button loading 1`] = `
+<div
+  className="button"
+>
+  <div
+    className="loading-button"
+  >
+    <span
+      className="glow-button"
+    >
+      <span>
+        Loading
+      </span>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Button secondary 1`] = `
+<div
+  className="button BUTTON_SECONDARY"
+>
+  <button
+    onClick={[Function]}
+  >
+    Button
+  </button>
+</div>
+`;
+
 exports[`Storyshots Task archived 1`] = `
 <div
   className="list-item TASK_ARCHIVED"
